@@ -1,13 +1,13 @@
 import {getLoginCredentials, setLoginCredentials} from '../Keychain';
 import {URIS} from './index';
 
-export default api => {
+export default (api) => {
   api.axiosInstance.interceptors.response.use(
-    response => {
+    (response) => {
       return response;
     },
 
-    async error => {
+    async (error) => {
       let originalRequest = error.config;
       console.log('LOG_got_error', originalRequest);
       if (

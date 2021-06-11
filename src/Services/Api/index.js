@@ -1,5 +1,5 @@
 import {create} from 'apisauce';
-import {BASE_URL} from '../../Config';
+import config from '../../Config';
 import apiMonitor from './Monitor';
 //import setInterceptor from './Interceptor';
 
@@ -8,9 +8,10 @@ export const URIS = {
   LOGIN: 'login',
   REFRESH: 'refresh',
   LOGOUT: 'logout',
+  CREATE_ROOM: '/file/upload',
 };
 
-const createApiClient = (baseURL = BASE_URL) => {
+const createApiClient = (baseURL = config.API_URL) => {
   let api = create({
     baseURL,
     headers: {
@@ -25,13 +26,17 @@ const createApiClient = (baseURL = BASE_URL) => {
   // use interceptor if using oAuth for authentication
   // setInterceptor(api);
 
-  const setAuthorizationHeader = access_token =>
+  const setAuthorizationHeader = (access_token) =>
     api.setHeader('Authorization', 'Bearer ' + access_token);
 
-  const loginUser = payload => api.post(URIS.LOGIN, payload);
+  const loginUser = (payload) => api.post(URIS.LOGIN, payload);
+
+  const UploadImageToCreateRoom = (payload) =>
+    api.post(URIS.CREATE_ROOM, payload);
 
   //kickoff our api functions
   return {
+    UploadImageToCreateRoom,
     // client modifiers
     setAuthorizationHeader,
     // checkAppVersion,

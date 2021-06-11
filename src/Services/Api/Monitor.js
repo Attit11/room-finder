@@ -1,4 +1,4 @@
-const apiMonitor = response => {
+const apiMonitor = (response) => {
   response.ok
     ? console.log(
         '%c API_RESPONSE! %c' + response.config.url,

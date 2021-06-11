@@ -37,7 +37,8 @@ const UploadImagesComponent = ({setSteps}) => {
           onPress={() => {
             ImagePicker.openPicker({
               multiple: true,
-            }).then((images) => {
+              // includeBase64: true,
+            }).then(async (images) => {
               setCreateRoomFormData((prev) => {
                 return {...prev, images: images};
               });

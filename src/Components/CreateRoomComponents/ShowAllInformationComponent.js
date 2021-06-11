@@ -9,7 +9,7 @@ import {CREATE_ROOM_MUTATION} from '../../Apollo/Room/mutations/createRoom';
 import {showSuccessToast, showErrorToast} from '../../Lib/Toast';
 import {fileUpload} from '../../Api';
 
-const ShowAllInformationComponent = ({setSteps}) => {
+const ShowAllInformationComponent = ({setSteps, token}) => {
   const {createRoomFormData, setCreateRoomFormData} = useContext(
     CreateRoomContext,
   );
@@ -17,28 +17,29 @@ const ShowAllInformationComponent = ({setSteps}) => {
   const [createRoomMutation] = useMutation(CREATE_ROOM_MUTATION);
 
   const createRoom = () => {
-    fileUpload(createRoomFormData.images, true)
+    fileUpload(createRoomFormData.images, token)
       .then((data) => {
-        createRoomMutation({
-          variables: {
-            input: {
-              input: {
-                title: createRoomFormData.title,
-                rate: createRoomFormData.rate,
-                documents: [data.data.data.url],
-                description: createRoomFormData.description,
-                location: createRoomFormData.location,
-              },
-            },
-          },
-        })
-          .then(() => {
-            showSuccessToast('Room Created Successfully!');
-          })
-          .catch((err) => {
-            console.log(err);
-            showErrorToast('Room Creation Failed');
-          });
+        console.log('FROM THE SUCCESS', data);
+        // createRoomMutation({
+        //   variables: {
+        //     input: {
+        //       input: {
+        //         title: createRoomFormData.title,
+        //         rate: createRoomFormData.rate,
+        //         documents: [data.data.data.url],
+        //         description: createRoomFormData.description,
+        //         location: createRoomFormData.location,
+        //       },
+        //     },
+        //   },
+        // })
+        //   .then(() => {
+        //     showSuccessToast('Room Created Successfully!');
+        //   })
+        //   .catch((err) => {
+        //     console.log(err);
+        //     showErrorToast('Room Creation Failed');
+        //   });
       })
       .catch((err) => {
         console.log(err);
@@ -52,7 +53,7 @@ const ShowAllInformationComponent = ({setSteps}) => {
         style={{
           padding: 10,
         }}>
-        {console.log('CREATE ROOM FORM DATA', createRoomFormData)}
+        {console.log('CREATE ROOM FORM DATA', createRoomFormData.images)}
         <Text style={{fontSize: 20, textAlign: 'center', padding: 20}}>
           Details of your room
         </Text>
@@ -67,23 +68,25 @@ const ShowAllInformationComponent = ({setSteps}) => {
             Description: {createRoomFormData.description}
           </Text>
         </View>
-        <Section
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            flexDirection: 'row',
-            justifyContent: 'center',
-          }}>
-          {createRoomFormData.images.map((image, i) => {
-            return (
-              <Image
-                key={i}
-                style={{height: 100, width: 100, margin: 5}}
-                source={{uri: image.path}}
-              />
-            );
-          })}
-        </Section>
+        {createRoomFormData.images !== null && (
+          <Section
+            style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              flexDirection: 'row',
+              justifyContent: 'center',
+            }}>
+            {createRoomFormData.images.map((image, i) => {
+              return (
+                <Image
+                  key={i}
+                  style={{height: 100, width: 100, margin: 5}}
+                  source={{uri: image.path}}
+                />
+              );
+            })}
+          </Section>
+        )}
         <Section>
           <ButtonX onPress={createRoom} label="Create Room" />
         </Section>

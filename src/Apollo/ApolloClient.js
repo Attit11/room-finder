@@ -22,6 +22,7 @@ import {APP_STATE} from '../Constants';
 const fragmentMatcher = new IntrospectionFragmentMatcher({
   introspectionQueryResultData: result,
 });
+
 // const ROOT_PATH = 'de1c3d0f5551.ngrok.io';
 const ROOT_PATH = 'workernetwork8848.herokuapp.com';
 const cache = new InMemoryCache({
