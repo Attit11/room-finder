@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.easy_boiler",
+    package = "com.room_finder",
 )
 
 android_resource(
     name = "res",
-    package = "com.easy_boiler",
+    package = "com.room_finder",
     res = "src/main/res",
 )
 

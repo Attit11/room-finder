@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* roomFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* roomFinderTests.m */; };
+		00E356F31AD99517003FC87E /* room_finderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* room_finderTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -15,18 +15,18 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* roomFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* roomFinderTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* room_finderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* room_finderTests.m */; };
 		4CA1AC4750C547C990EF1530 /* GentiumBookBasic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBE2BBFB2F2047B597E170E5 /* GentiumBookBasic-Regular.ttf */; };
 		4F9B8157696945E895F96EFA /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED29DB2C7D214EB69FBC9C11 /* Lato-Bold.ttf */; };
-		6DE1035BF7DE317FE9E328C2 /* libPods-roomFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32E30124374EF66F22F144 /* libPods-roomFinder.a */; };
+		6DE1035BF7DE317FE9E328C2 /* libPods-room_finder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32E30124374EF66F22F144 /* libPods-room_finder.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9F268EED3F05420C8845DF50 /* GentiumBookBasic-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56AA15144E66483AABB8933F /* GentiumBookBasic-Italic.ttf */; };
 		A86FD701CFC7456DA3D6F31B /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE29886BF2D84AB0A46F7718 /* Lato-Regular.ttf */; };
 		BD42C678A1C14F0CA7F82E30 /* LuckiestGuy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75722D727DFF43888CAFE299 /* LuckiestGuy-Regular.ttf */; };
-		C5A2E9E15985BB9A5A338FCD /* libPods-roomFinder-roomFinderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F36FD6641BD6D81442298FE /* libPods-roomFinder-roomFinderTests.a */; };
+		C5A2E9E15985BB9A5A338FCD /* libPods-room_finder-room_finderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F36FD6641BD6D81442298FE /* libPods-room_finder-room_finderTests.a */; };
 		D18E3CBF5E4340D0A9AE3E98 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 595E9CD977F6404796B8480E /* OpenSans-Regular.ttf */; };
-		D661D060C3F808F4D682CEBA /* libPods-roomFinder-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8010B05BCFEEF7B2DE0098FC /* libPods-roomFinder-tvOSTests.a */; };
-		D9D043758AFC733BDBB3991E /* libPods-roomFinder-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC3286782267089D12A053B /* libPods-roomFinder-tvOS.a */; };
+		D661D060C3F808F4D682CEBA /* libPods-room_finder-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8010B05BCFEEF7B2DE0098FC /* libPods-room_finder-tvOSTests.a */; };
+		D9D043758AFC733BDBB3991E /* libPods-room_finder-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC3286782267089D12A053B /* libPods-room_finder-tvOS.a */; };
 		E2A45A49FB794EC7AC43567F /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6132E5EC716747ECA9E76B73 /* Lato-Italic.ttf */; };
 /* End PBXBuildFile section */
 
@@ -36,53 +36,53 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = roomFinder;
+			remoteInfo = room_finder;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "roomFinder-tvOS";
+			remoteInfo = "room_finder-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* roomFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = roomFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* room_finderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = room_finderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* roomFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = roomFinderTests.m; sourceTree = "<group>"; };
-		0B32E30124374EF66F22F144 /* libPods-roomFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-roomFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F36FD6641BD6D81442298FE /* libPods-roomFinder-roomFinderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-roomFinder-roomFinderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* roomFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = roomFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = roomFinder/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = roomFinder/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = roomFinder/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = roomFinder/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = roomFinder/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* roomFinder-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "roomFinder-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* roomFinder-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "roomFinder-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DAE40E563D5409120515C05 /* Pods-roomFinder-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-roomFinder-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-roomFinder-tvOS/Pods-roomFinder-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		4DC3286782267089D12A053B /* libPods-roomFinder-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-roomFinder-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* room_finderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = room_finderTests.m; sourceTree = "<group>"; };
+		0B32E30124374EF66F22F144 /* libPods-room_finder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-room_finder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F36FD6641BD6D81442298FE /* libPods-room_finder-room_finderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-room_finder-room_finderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* room_finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = room_finder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = room_finder/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = room_finder/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = room_finder/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = room_finder/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = room_finder/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* room_finder-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "room_finder-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* room_finder-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "room_finder-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DAE40E563D5409120515C05 /* Pods-room_finder-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-room_finder-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-room_finder-tvOS/Pods-room_finder-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4DC3286782267089D12A053B /* libPods-room_finder-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-room_finder-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56AA15144E66483AABB8933F /* GentiumBookBasic-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GentiumBookBasic-Italic.ttf"; path = "../src/Assets/fonts/GentiumBookBasic-Italic.ttf"; sourceTree = "<group>"; };
 		595E9CD977F6404796B8480E /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../src/Assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		6132E5EC716747ECA9E76B73 /* Lato-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Italic.ttf"; path = "../src/Assets/fonts/Lato-Italic.ttf"; sourceTree = "<group>"; };
 		75722D727DFF43888CAFE299 /* LuckiestGuy-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "LuckiestGuy-Regular.ttf"; path = "../src/Assets/fonts/LuckiestGuy-Regular.ttf"; sourceTree = "<group>"; };
-		8010B05BCFEEF7B2DE0098FC /* libPods-roomFinder-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-roomFinder-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = roomFinder/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8010B05BCFEEF7B2DE0098FC /* libPods-room_finder-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-room_finder-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = room_finder/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82EA4F84AC4B45DDBF2C5B0D /* GreatVibes-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GreatVibes-Regular.ttf"; path = "../src/Assets/fonts/GreatVibes-Regular.ttf"; sourceTree = "<group>"; };
-		920AE01196CF291853BA329C /* Pods-roomFinder-roomFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-roomFinder-roomFinderTests.release.xcconfig"; path = "Target Support Files/Pods-roomFinder-roomFinderTests/Pods-roomFinder-roomFinderTests.release.xcconfig"; sourceTree = "<group>"; };
-		A4096936F8A21A29A78A2722 /* Pods-roomFinder-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-roomFinder-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-roomFinder-tvOSTests/Pods-roomFinder-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		A73D6623F5213E78782B8867 /* Pods-roomFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-roomFinder.release.xcconfig"; path = "Target Support Files/Pods-roomFinder/Pods-roomFinder.release.xcconfig"; sourceTree = "<group>"; };
+		920AE01196CF291853BA329C /* Pods-room_finder-room_finderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-room_finder-room_finderTests.release.xcconfig"; path = "Target Support Files/Pods-room_finder-room_finderTests/Pods-room_finder-room_finderTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4096936F8A21A29A78A2722 /* Pods-room_finder-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-room_finder-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-room_finder-tvOSTests/Pods-room_finder-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A73D6623F5213E78782B8867 /* Pods-room_finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-room_finder.release.xcconfig"; path = "Target Support Files/Pods-room_finder/Pods-room_finder.release.xcconfig"; sourceTree = "<group>"; };
 		AE29886BF2D84AB0A46F7718 /* Lato-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Regular.ttf"; path = "../src/Assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
 		BBE2BBFB2F2047B597E170E5 /* GentiumBookBasic-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GentiumBookBasic-Regular.ttf"; path = "../src/Assets/fonts/GentiumBookBasic-Regular.ttf"; sourceTree = "<group>"; };
-		BCCF69254288BC7566338DA6 /* Pods-roomFinder-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-roomFinder-tvOS.release.xcconfig"; path = "Target Support Files/Pods-roomFinder-tvOS/Pods-roomFinder-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C08C308E478E4A49AB617A33 /* Pods-roomFinder-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-roomFinder-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-roomFinder-tvOSTests/Pods-roomFinder-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5B2C53165757B8DB1E88994 /* Pods-roomFinder-roomFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-roomFinder-roomFinderTests.debug.xcconfig"; path = "Target Support Files/Pods-roomFinder-roomFinderTests/Pods-roomFinder-roomFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCCF69254288BC7566338DA6 /* Pods-room_finder-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-room_finder-tvOS.release.xcconfig"; path = "Target Support Files/Pods-room_finder-tvOS/Pods-room_finder-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C08C308E478E4A49AB617A33 /* Pods-room_finder-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-room_finder-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-room_finder-tvOSTests/Pods-room_finder-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5B2C53165757B8DB1E88994 /* Pods-room_finder-room_finderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-room_finder-room_finderTests.debug.xcconfig"; path = "Target Support Files/Pods-room_finder-room_finderTests/Pods-room_finder-room_finderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		ED29DB2C7D214EB69FBC9C11 /* Lato-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Bold.ttf"; path = "../src/Assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
-		F3E913972B31574447799D3B /* Pods-roomFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-roomFinder.debug.xcconfig"; path = "Target Support Files/Pods-roomFinder/Pods-roomFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		F3E913972B31574447799D3B /* Pods-room_finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-room_finder.debug.xcconfig"; path = "Target Support Files/Pods-room_finder/Pods-room_finder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5A2E9E15985BB9A5A338FCD /* libPods-roomFinder-roomFinderTests.a in Frameworks */,
+				C5A2E9E15985BB9A5A338FCD /* libPods-room_finder-room_finderTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DE1035BF7DE317FE9E328C2 /* libPods-roomFinder.a in Frameworks */,
+				6DE1035BF7DE317FE9E328C2 /* libPods-room_finder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9D043758AFC733BDBB3991E /* libPods-roomFinder-tvOS.a in Frameworks */,
+				D9D043758AFC733BDBB3991E /* libPods-room_finder-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,20 +114,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D661D060C3F808F4D682CEBA /* libPods-roomFinder-tvOSTests.a in Frameworks */,
+				D661D060C3F808F4D682CEBA /* libPods-room_finder-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* roomFinderTests */ = {
+		00E356EF1AD99517003FC87E /* room_finderTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* roomFinderTests.m */,
+				00E356F21AD99517003FC87E /* room_finderTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = roomFinderTests;
+			path = room_finderTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -138,7 +138,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* roomFinder */ = {
+		13B07FAE1A68108700A75B9A /* room_finder */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -149,7 +149,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = roomFinder;
+			name = room_finder;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -157,10 +157,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				0B32E30124374EF66F22F144 /* libPods-roomFinder.a */,
-				0F36FD6641BD6D81442298FE /* libPods-roomFinder-roomFinderTests.a */,
-				4DC3286782267089D12A053B /* libPods-roomFinder-tvOS.a */,
-				8010B05BCFEEF7B2DE0098FC /* libPods-roomFinder-tvOSTests.a */,
+				0B32E30124374EF66F22F144 /* libPods-room_finder.a */,
+				0F36FD6641BD6D81442298FE /* libPods-room_finder-room_finderTests.a */,
+				4DC3286782267089D12A053B /* libPods-room_finder-tvOS.a */,
+				8010B05BCFEEF7B2DE0098FC /* libPods-room_finder-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,9 +190,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* roomFinder */,
+				13B07FAE1A68108700A75B9A /* room_finder */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* roomFinderTests */,
+				00E356EF1AD99517003FC87E /* room_finderTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				896751923113820FB4EA36BE /* Pods */,
@@ -206,10 +206,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* roomFinder.app */,
-				00E356EE1AD99517003FC87E /* roomFinderTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* roomFinder-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* roomFinder-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* room_finder.app */,
+				00E356EE1AD99517003FC87E /* room_finderTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* room_finder-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* room_finder-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,14 +217,14 @@
 		896751923113820FB4EA36BE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F3E913972B31574447799D3B /* Pods-roomFinder.debug.xcconfig */,
-				A73D6623F5213E78782B8867 /* Pods-roomFinder.release.xcconfig */,
-				D5B2C53165757B8DB1E88994 /* Pods-roomFinder-roomFinderTests.debug.xcconfig */,
-				920AE01196CF291853BA329C /* Pods-roomFinder-roomFinderTests.release.xcconfig */,
-				2DAE40E563D5409120515C05 /* Pods-roomFinder-tvOS.debug.xcconfig */,
-				BCCF69254288BC7566338DA6 /* Pods-roomFinder-tvOS.release.xcconfig */,
-				C08C308E478E4A49AB617A33 /* Pods-roomFinder-tvOSTests.debug.xcconfig */,
-				A4096936F8A21A29A78A2722 /* Pods-roomFinder-tvOSTests.release.xcconfig */,
+				F3E913972B31574447799D3B /* Pods-room_finder.debug.xcconfig */,
+				A73D6623F5213E78782B8867 /* Pods-room_finder.release.xcconfig */,
+				D5B2C53165757B8DB1E88994 /* Pods-room_finder-room_finderTests.debug.xcconfig */,
+				920AE01196CF291853BA329C /* Pods-room_finder-room_finderTests.release.xcconfig */,
+				2DAE40E563D5409120515C05 /* Pods-room_finder-tvOS.debug.xcconfig */,
+				BCCF69254288BC7566338DA6 /* Pods-room_finder-tvOS.release.xcconfig */,
+				C08C308E478E4A49AB617A33 /* Pods-room_finder-tvOSTests.debug.xcconfig */,
+				A4096936F8A21A29A78A2722 /* Pods-room_finder-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -232,9 +232,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* roomFinderTests */ = {
+		00E356ED1AD99517003FC87E /* room_finderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "roomFinderTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "room_finderTests" */;
 			buildPhases = (
 				99B57772D4E3BBB71ECEB08D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -247,14 +247,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = roomFinderTests;
-			productName = roomFinderTests;
-			productReference = 00E356EE1AD99517003FC87E /* roomFinderTests.xctest */;
+			name = room_finderTests;
+			productName = room_finderTests;
+			productReference = 00E356EE1AD99517003FC87E /* room_finderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* roomFinder */ = {
+		13B07F861A680F5B00A75B9A /* room_finder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "roomFinder" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "room_finder" */;
 			buildPhases = (
 				0420A8CB575674623975BAD1 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -268,14 +268,14 @@
 			);
 			dependencies = (
 			);
-			name = roomFinder;
-			productName = roomFinder;
-			productReference = 13B07F961A680F5B00A75B9A /* roomFinder.app */;
+			name = room_finder;
+			productName = room_finder;
+			productReference = 13B07F961A680F5B00A75B9A /* room_finder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* roomFinder-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* room_finder-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "roomFinder-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "room_finder-tvOS" */;
 			buildPhases = (
 				CA2691919A07F07A150F36BC /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -288,14 +288,14 @@
 			);
 			dependencies = (
 			);
-			name = "roomFinder-tvOS";
-			productName = "roomFinder-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* roomFinder-tvOS.app */;
+			name = "room_finder-tvOS";
+			productName = "room_finder-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* room_finder-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* roomFinder-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* room_finder-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "roomFinder-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "room_finder-tvOSTests" */;
 			buildPhases = (
 				30F0657714A30065FBB70FBB /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -307,9 +307,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "roomFinder-tvOSTests";
-			productName = "roomFinder-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* roomFinder-tvOSTests.xctest */;
+			name = "room_finder-tvOSTests";
+			productName = "room_finder-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* room_finder-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -339,7 +339,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "roomFinder" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "room_finder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -352,10 +352,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* roomFinder */,
-				00E356ED1AD99517003FC87E /* roomFinderTests */,
-				2D02E47A1E0B4A5D006451C7 /* roomFinder-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* roomFinder-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* room_finder */,
+				00E356ED1AD99517003FC87E /* room_finderTests */,
+				2D02E47A1E0B4A5D006451C7 /* room_finder-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* room_finder-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -432,7 +432,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-roomFinder-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-room_finder-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-roomFinder-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-room_finder-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -481,7 +481,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-roomFinder-roomFinderTests/Pods-roomFinder-roomFinderTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-room_finder-room_finderTests/Pods-room_finder-room_finderTests-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -522,7 +522,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-roomFinder-roomFinderTests/Pods-roomFinder-roomFinderTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-room_finder-room_finderTests/Pods-room_finder-room_finderTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7673B7292A47C1F4F6B8C9E4 /* [CP] Copy Pods Resources */ = {
@@ -531,7 +531,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-roomFinder/Pods-roomFinder-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-room_finder/Pods-room_finder-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -572,7 +572,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-roomFinder/Pods-roomFinder-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-room_finder/Pods-room_finder-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		99B57772D4E3BBB71ECEB08D /* [CP] Check Pods Manifest.lock */ = {
@@ -590,7 +590,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-roomFinder-roomFinderTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-room_finder-room_finderTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -612,7 +612,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-roomFinder-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-room_finder-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -664,7 +664,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* roomFinderTests.m in Sources */,
+				00E356F31AD99517003FC87E /* room_finderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,7 +690,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* roomFinderTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* room_finderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,12 +699,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* roomFinder */;
+			target = 13B07F861A680F5B00A75B9A /* room_finder */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* roomFinder-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* room_finder-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -712,14 +712,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5B2C53165757B8DB1E88994 /* Pods-roomFinder-roomFinderTests.debug.xcconfig */;
+			baseConfigurationReference = D5B2C53165757B8DB1E88994 /* Pods-room_finder-room_finderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = roomFinderTests/Info.plist;
+				INFOPLIST_FILE = room_finderTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -729,17 +729,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/roomFinder.app/roomFinder";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/room_finder.app/room_finder";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 920AE01196CF291853BA329C /* Pods-roomFinder-roomFinderTests.release.xcconfig */;
+			baseConfigurationReference = 920AE01196CF291853BA329C /* Pods-room_finder-room_finderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = roomFinderTests/Info.plist;
+				INFOPLIST_FILE = room_finderTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -749,20 +749,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/roomFinder.app/roomFinder";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/room_finder.app/room_finder";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3E913972B31574447799D3B /* Pods-roomFinder.debug.xcconfig */;
+			baseConfigurationReference = F3E913972B31574447799D3B /* Pods-room_finder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KV942VJG9R;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = roomFinder/Info.plist;
+				INFOPLIST_FILE = room_finder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -770,7 +770,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = roomFinder;
+				PRODUCT_NAME = room_finder;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -780,13 +780,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A73D6623F5213E78782B8867 /* Pods-roomFinder.release.xcconfig */;
+			baseConfigurationReference = A73D6623F5213E78782B8867 /* Pods-room_finder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KV942VJG9R;
-				INFOPLIST_FILE = roomFinder/Info.plist;
+				INFOPLIST_FILE = room_finder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -794,7 +794,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = roomFinder;
+				PRODUCT_NAME = room_finder;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -803,7 +803,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DAE40E563D5409120515C05 /* Pods-roomFinder-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 2DAE40E563D5409120515C05 /* Pods-room_finder-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -814,14 +814,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "roomFinder-tvOS/Info.plist";
+				INFOPLIST_FILE = "room_finder-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.roomFinder-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.room_finder-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -831,7 +831,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCCF69254288BC7566338DA6 /* Pods-roomFinder-tvOS.release.xcconfig */;
+			baseConfigurationReference = BCCF69254288BC7566338DA6 /* Pods-room_finder-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -842,14 +842,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "roomFinder-tvOS/Info.plist";
+				INFOPLIST_FILE = "room_finder-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.roomFinder-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.room_finder-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -859,7 +859,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C08C308E478E4A49AB617A33 /* Pods-roomFinder-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = C08C308E478E4A49AB617A33 /* Pods-room_finder-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -869,24 +869,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "roomFinder-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "room_finder-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.roomFinder-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.room_finder-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/roomFinder-tvOS.app/roomFinder-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/room_finder-tvOS.app/room_finder-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4096936F8A21A29A78A2722 /* Pods-roomFinder-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = A4096936F8A21A29A78A2722 /* Pods-room_finder-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -896,17 +896,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "roomFinder-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "room_finder-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.roomFinder-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.room_finder-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/roomFinder-tvOS.app/roomFinder-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/room_finder-tvOS.app/room_finder-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1027,7 +1027,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "roomFinderTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "room_finderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1036,7 +1036,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "roomFinder" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "room_finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1045,7 +1045,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "roomFinder-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "room_finder-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1054,7 +1054,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "roomFinder-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "room_finder-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1063,7 +1063,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "roomFinder" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "room_finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

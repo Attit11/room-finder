@@ -1,4 +1,4 @@
-package com.easy_boiler;
+package com.room_finder;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
@@ -29,7 +29,7 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "roomFinder";
+        return "room_finder";
     }
 
   @Override

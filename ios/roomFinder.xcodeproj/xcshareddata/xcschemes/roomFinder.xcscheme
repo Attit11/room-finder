@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "roomFinder.app"
-               BlueprintName = "roomFinder"
-               ReferencedContainer = "container:roomFinder.xcodeproj">
+               BuildableName = "room_finder.app"
+               BlueprintName = "room_finder"
+               ReferencedContainer = "container:room_finder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "roomFinderTests.xctest"
-               BlueprintName = "roomFinderTests"
-               ReferencedContainer = "container:roomFinder.xcodeproj">
+               BuildableName = "room_finderTests.xctest"
+               BlueprintName = "room_finderTests"
+               ReferencedContainer = "container:room_finder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "roomFinderTests.xctest"
-               BlueprintName = "roomFinderTests"
-               ReferencedContainer = "container:roomFinder.xcodeproj">
+               BuildableName = "room_finderTests.xctest"
+               BlueprintName = "room_finderTests"
+               ReferencedContainer = "container:room_finder.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "roomFinder.app"
-            BlueprintName = "roomFinder"
-            ReferencedContainer = "container:roomFinder.xcodeproj">
+            BuildableName = "room_finder.app"
+            BlueprintName = "room_finder"
+            ReferencedContainer = "container:room_finder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "roomFinder.app"
-            BlueprintName = "roomFinder"
-            ReferencedContainer = "container:roomFinder.xcodeproj">
+            BuildableName = "room_finder.app"
+            BlueprintName = "room_finder"
+            ReferencedContainer = "container:room_finder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "roomFinder.app"
-            BlueprintName = "roomFinder"
-            ReferencedContainer = "container:roomFinder.xcodeproj">
+            BuildableName = "room_finder.app"
+            BlueprintName = "room_finder"
+            ReferencedContainer = "container:room_finder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

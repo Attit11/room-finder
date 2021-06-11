@@ -14,11 +14,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface roomFinderTests : XCTestCase
+@interface room_finderTests : XCTestCase
 
 @end
 
-@implementation roomFinderTests
+@implementation room_finderTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

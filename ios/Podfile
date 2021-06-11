@@ -2,7 +2,7 @@ require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
 platform :ios, '10.0'
-target 'roomFinder' do
+target 'room_finder' do
  
 config = use_native_modules!
 
@@ -19,7 +19,7 @@ config = use_native_modules!
 
   pod 'RNImageCropPicker', :path => '../node_modules/react-native-image-crop-picker'
 
-  target 'roomFinderTests' do
+  target 'room_finderTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -34,10 +34,10 @@ config = use_native_modules!
   end
 end
 
-target 'roomFinder-tvOS' do
-  # Pods for roomFinder-tvOS
+target 'room_finder-tvOS' do
+  # Pods for room_finder-tvOS
 
-  target 'roomFinder-tvOSTests' do
+  target 'room_finder-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

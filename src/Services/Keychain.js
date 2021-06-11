@@ -6,9 +6,9 @@ export const setLoginCredentials = async (field1, field2, jwt = '') => {
     const response = await Keychain.setGenericPassword(
       field1,
       field2,
-      'roomfinderJWT',
+      'room_finderJWT',
     );
-    await Keychain.setGenericPassword(field1, jwt, 'roomfinderJWT');
+    await Keychain.setGenericPassword(field1, jwt, 'room_finderJWT');
     return {status: true, response};
   } catch (e) {
     console.log('keychain access failed ', e);
@@ -17,7 +17,7 @@ export const setLoginCredentials = async (field1, field2, jwt = '') => {
 };
 export const getLoginCredentials = async () => {
   try {
-    const credentials = await Keychain.getGenericPassword('roomfinderJWT');
+    const credentials = await Keychain.getGenericPassword('room_finderJWT');
     // console.log('keychain get data ', credentials);
     if (credentials) {
       return credentials;
@@ -30,8 +30,8 @@ export const getLoginCredentials = async () => {
 };
 export const resetLoginCredentials = async () => {
   try {
-    await Keychain.resetGenericPassword('roomfinderJWT');
-    const reset = await Keychain.resetGenericPassword('roomfinderJWT');
+    await Keychain.resetGenericPassword('room_finderJWT');
+    const reset = await Keychain.resetGenericPassword('room_finderJWT');
     return reset;
   } catch (e) {
     console.log('cannot access or reset keychain data ', e);

@@ -77,7 +77,7 @@ NetInfo.addEventListener((state) => {
   }
 });
 const authLink = setContext(async (req, {headers}) => {
-  const credentials = await Keychain.getGenericPassword('roomfinderJWT');
+  const credentials = await Keychain.getGenericPassword('room_finderJWT');
   // console.log('keychain get data ', credentials);
   let token = '';
   if (credentials && credentials.password) {
@@ -93,7 +93,7 @@ const wsLink = new WebSocketLink({
   options: {
     reconnect: true,
     connectionParams: async () => {
-      const credentials = await Keychain.getGenericPassword('roomfinderJWT');
+      const credentials = await Keychain.getGenericPassword('room_finderJWT');
       let token = '';
       if (credentials && credentials.password) {
         token = credentials.password;
